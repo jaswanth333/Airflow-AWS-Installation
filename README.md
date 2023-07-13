@@ -39,6 +39,8 @@ airflow db init
 
 airflow users create -u airflow -f airflow -l airflow -r Admin -e airflow@gmail.com
 
+#password:airflow
+
 airflow webserver &
 
 airflow scheduler
